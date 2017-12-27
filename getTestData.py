@@ -31,7 +31,7 @@ Submission = namedtuple('Submission', ['score', 'hour', 'weekday', 'title', 'tex
 data = []
 count = 0
 reddit = praw.Reddit(client_id='J_n1ci2ZW2Q7AQ', client_secret='ZbzPckEGgWugfD0JtAOFGeV7jLs',
-                     user_agent='testscript by /u/SilentButtDeadlies')
+                     user_agent='testscript by /u/USERNAME')
 subreddit = reddit.subreddit('AskReddit')
 # for submission in subreddit.submissions(1496075200, 1496575200):  # 1496075200 May 29, 1496575200 June 4
 #     count += 1
